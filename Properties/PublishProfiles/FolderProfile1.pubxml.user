@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>F:\PROJETCS PERSONAL\NUEVO EXAMEN AXONET\publishAPI</_PublishTargetUrl>
+    <History>True|2021-03-03T20:43:44.4769284Z;True|2021-03-03T14:43:09.7737158-06:00;</History>
+  </PropertyGroup>
+</Project>
