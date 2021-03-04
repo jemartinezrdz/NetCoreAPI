@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eduardo\\Desktop\\ApiRECIBOS\\ApiExamen.csproj": {}
+    "C:\\Users\\Eduardo\\Source\\Repos\\jemartinezrdz\\NetCoreAPI\\ApiExamen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eduardo\\Desktop\\ApiRECIBOS\\ApiExamen.csproj": {
+    "C:\\Users\\Eduardo\\Source\\Repos\\jemartinezrdz\\NetCoreAPI\\ApiExamen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduardo\\Desktop\\ApiRECIBOS\\ApiExamen.csproj",
+        "projectUniqueName": "C:\\Users\\Eduardo\\Source\\Repos\\jemartinezrdz\\NetCoreAPI\\ApiExamen.csproj",
         "projectName": "ApiExamen",
-        "projectPath": "C:\\Users\\Eduardo\\Desktop\\ApiRECIBOS\\ApiExamen.csproj",
+        "projectPath": "C:\\Users\\Eduardo\\Source\\Repos\\jemartinezrdz\\NetCoreAPI\\ApiExamen.csproj",
         "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduardo\\Desktop\\ApiRECIBOS\\obj\\",
+        "outputPath": "C:\\Users\\Eduardo\\Source\\Repos\\jemartinezrdz\\NetCoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",

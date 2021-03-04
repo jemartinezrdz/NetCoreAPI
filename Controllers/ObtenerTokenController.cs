@@ -25,9 +25,15 @@ namespace ApiExamen.Controllers
             this.configuration = configuration;
         }
 
-        
+        /// <summary>
+        /// Autenticacion con jwt para el login del front end y el funcionamiento de los metodos del api
+        /// </summary>
+        /// <param name="Recibo_DTO"></param>
+        /// <returns></returns>
         [HttpPost]
         [Route("login")]
+        [ProducesResponseType(200, Type = typeof(Usuario))]
+        [ProducesResponseType(400)]
         [AllowAnonymous]
         public IActionResult Login([FromBody] Usuario accesos)
         {
@@ -101,7 +107,7 @@ namespace ApiExamen.Controllers
                     claims: _Claims,
                     notBefore: DateTime.UtcNow,
                     // Exipra a la 24 horas.
-                    expires: DateTime.UtcNow.AddHours(24)
+                    expires: DateTime.UtcNow.AddHours(1)
                 );
 
             

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X2VgTKEGWFfsN+z43BrhA4PiuNliwThKnEXY0oo8e16HZLswtX+/8kjcjx4HMdkoOGp173tvB5rT2PXS6OPipg==",
+  "dgSpecHash": "rNA+cdao9cVXhrtpEPlxbkHRoxrjLVl4/b2rAlC5m+nviD0DmRdJ5s4aTyK9wvpZAFQzQ9X1jFarRxaT6u7kxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eduardo\\Desktop\\ApiRECIBOS\\ApiExamen.csproj",
+  "projectFilePath": "C:\\Users\\Eduardo\\Source\\Repos\\jemartinezrdz\\NetCoreAPI\\ApiExamen.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eduardo\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
