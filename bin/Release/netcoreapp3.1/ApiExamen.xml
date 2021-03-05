@@ -4,6 +4,13 @@
         <name>ApiExamen</name>
     </assembly>
     <members>
+        <member name="M:ApiExamen.Controllers.ObtenerTokenController.Login(ApiExamen.Models.Usuario)">
+            <summary>
+            Autenticacion con jwt para el login del front end y el funcionamiento de los metodos del api
+            </summary>
+            <param name="Recibo_DTO"></param>
+            <returns></returns>
+        </member>
         <member name="M:ApiExamen.Controllers.ReciboController.GetRecibos">
             <summary>
             Consulta todos los recibos
@@ -11,14 +18,14 @@
             <param name="Recibo_DTO"></param>
             <returns></returns>
         </member>
-        <member name="M:ApiExamen.Controllers.ReciboController.RegistraRecibo(ApiExamen.Models.Recibo_DTO)">
+        <member name="M:ApiExamen.Controllers.ReciboController.RegistraRecibo(ApiExamen.Models.DTOs.Recibo_DTO)">
             <summary>
             Registra un nuevo recibo
             </summary>
             <param name="Recibo_DTO"></param>
             <returns></returns>
         </member>
-        <member name="M:ApiExamen.Controllers.ReciboController.ActualizarRecibo(ApiExamen.Models.Recibo_DTO)">
+        <member name="M:ApiExamen.Controllers.ReciboController.ActualizarRecibo(ApiExamen.Models.DTOs.Recibo_DTO)">
             <summary>
             Actualiza un recibo
             </summary>

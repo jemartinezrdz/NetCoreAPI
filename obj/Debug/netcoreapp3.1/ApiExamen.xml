@@ -18,14 +18,14 @@
             <param name="Recibo_DTO"></param>
             <returns></returns>
         </member>
-        <member name="M:ApiExamen.Controllers.ReciboController.RegistraRecibo(ApiExamen.Models.Recibo_DTO)">
+        <member name="M:ApiExamen.Controllers.ReciboController.RegistraRecibo(ApiExamen.Models.DTOs.Recibo_DTO)">
             <summary>
             Registra un nuevo recibo
             </summary>
             <param name="Recibo_DTO"></param>
             <returns></returns>
         </member>
-        <member name="M:ApiExamen.Controllers.ReciboController.ActualizarRecibo(ApiExamen.Models.Recibo_DTO)">
+        <member name="M:ApiExamen.Controllers.ReciboController.ActualizarRecibo(ApiExamen.Models.DTOs.Recibo_DTO)">
             <summary>
             Actualiza un recibo
             </summary>

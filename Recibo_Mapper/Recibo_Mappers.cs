@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-
+using ApiExamen.Models.DTOs;
 
 namespace ApiExamen.Recibo_Mapper
 {

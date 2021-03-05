@@ -7,7 +7,7 @@ using ApiExamen.Repository.IRepository;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ApiExamen.Models;
+using ApiExamen.Models.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
@@ -50,26 +50,23 @@ namespace ApiExamen.Controllers
         }
 
 
-        //[HttpGet("{id:int}", Name = "UnRecibo")]
-        //[Route("ObtenerRecibo")]
-        //[ProducesResponseType(200, Type = typeof(Recibo_DTO))]
-        //[ProducesResponseType(400)]
+        [HttpGet]
+        [Route("UltimoRecibo")]
+        [ProducesResponseType(200, Type = typeof(Recibo_DTO))]
+        [ProducesResponseType(400)]
 
-        //public IActionResult UnRecibo(int id)
-        //{
-        //    var unRecibo = _dlRepo.UnRecibo(id);
+        public IActionResult UltimoRecibo()
+        {
+            var ultimoRecibo = _dlRepo.ultimoRecibo();
 
-        //    if (unRecibo == null)
-        //    {
-        //        return NotFound();
-        //    }
+            var listaRecibosDto = new List<Recibo_DTO>();
 
-
-        //    var resultadoRecibosDto = _mapper.Map<Recibo_DTO>(unRecibo);
-        //    return Ok(resultadoRecibosDto);
-        //}
-
-
+            foreach (var lista in ultimoRecibo)
+            {
+                listaRecibosDto.Add(_mapper.Map<Recibo_DTO>(lista));
+            }
+            return Ok(listaRecibosDto);
+        }
 
         /// <summary>
         /// Registra un nuevo recibo

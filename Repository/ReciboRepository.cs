@@ -80,15 +80,24 @@ namespace ApiExamen.Repository
            
         }
 
-        public Recibo UnRecibo(int idRecibo)
-        {
-            return _bd.Recibo.FirstOrDefault(d => d.idRecibo == idRecibo);
-        }
+        
 
         public IEnumerable<Recibo> GetRecibos()
         {
            
             var recibo = _bd.Recibo.FromSqlRaw("EXEC spAdministrar_Recibos");
+            return recibo;
+        }
+
+        public IEnumerable<Recibo> ultimoRecibo()
+        {
+            var recibo = _bd.Recibo.FromSqlRaw("EXEC spAdministrar_Recibos {0}, {1}, {2}, {3}, {4}, {5}",
+                    ".",
+                    0,
+                    ".",
+                    ".",
+                    "Ultimo",
+                    "");
             return recibo;
         }
 

@@ -4,15 +4,17 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ApiExamen.Models
+namespace ApiExamen.Models.DTOs
 {
     public class Recibo_DTO
     {
         [Key]
 
         public int idRecibo { get; set; }
-        [Required(ErrorMessage = "El valor de proveedor es obligatorio")]
+        [Required]
+
         public string? proveedor { get; set; }
+        
         [Required(ErrorMessage = "El valor de monto es obligatorio")]
         public decimal? monto { get; set; }
         [Required(ErrorMessage = "El valor de moneda es obligatorio")]
